@@ -4,7 +4,7 @@
 
 This security policy covers:
 
-- **The GAAIM specification itself** — flaws in the signing scheme, attribution model, chain-of-custody primitives, or any other normative security property defined by the specification
+- **The GAAIM specification itself** — flaws in the signing scheme, attribution model, chain-of-custody  primitives, or any other normative security property defined by the specification
 - **Reference implementations** maintained under the [GAAIM-standard](https://github.com/GAAIM-standard) organization — including any future SDKs, verifiers, canonicalization libraries, and example code
 - **Schema vulnerabilities** — ambiguities or definitions in the event schemas that could enable forgery, replay, injection, or impersonation
 
