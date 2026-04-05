@@ -1,39 +1,98 @@
-ForgeTrack Protocol
-Copyright 2026 Edson Technologies Inc.
+GAAIM — Generally Accepted AI Metrics
+Copyright (c) 2026 Edson Technologies, Inc.
 
-This product includes specification text licensed under the
-Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0).
-See LICENSE-SPEC for the specification license.
+This specification is published under the following licenses:
 
-This product includes code, schemas, and examples licensed under the
-Apache License, Version 2.0.
-See LICENSE-CODE for the code license.
+  Specification text:  CC-BY-SA 4.0 (see LICENSE-SPEC)
+  Code and schemas:    Apache License 2.0 (see LICENSE-CODE)
 
----
+-----------------------------------------------------------------------
 
-The ForgeTrack Protocol is stewarded by Edson Technologies Inc.,
-with the stated intent to transition to neutral foundation governance
-as adoption warrants. See GOVERNANCE.md for details.
+ATTRIBUTIONS
+-----------------------------------------------------------------------
 
-Contributions to this specification are welcome. See CONTRIBUTING.md
-for the process. By contributing, you agree to license your contributions
-under the applicable repository license (CC-BY-SA 4.0 for specification
-text, Apache 2.0 for code and schemas).
+This specification builds on and references the following open standards
+and prior work:
 
----
+  CloudEvents 1.0
+    https://cloudevents.io/
+    Licensed under Apache 2.0, Cloud Native Computing Foundation.
+    GAAIM defines its event envelope as a CloudEvents 1.0 profile.
 
-Portions of this repository's governance, RFC process, and contribution
-guidelines are inspired by prior work in the open specifications community,
-including (but not limited to):
+  JSON Canonicalization Scheme (JCS) — RFC 8785
+    https://www.rfc-editor.org/rfc/rfc8785
+    Authors: A. Rundgren, B. Jordan, S. Erdtman
+    GAAIM canonical serialization is based on JCS with specified
+    GAAIM-specific exclusions.
 
-  - The Rust RFC process (https://github.com/rust-lang/rfcs)
-  - The Python PEP process (https://peps.python.org/)
-  - The Kubernetes KEP process (https://github.com/kubernetes/enhancements)
-  - The Contributor Covenant Code of Conduct (https://www.contributor-covenant.org/)
-  - Keep a Changelog (https://keepachangelog.com/)
+  Edwards-Curve Digital Signature Algorithm (EdDSA) — RFC 8032
+    https://www.rfc-editor.org/rfc/rfc8032
+    Authors: S. Josefsson, I. Liusvaara
+    Ed25519 is the Mandatory-to-Implement signature algorithm for
+    GAAIM v0.1-draft.
 
-The ForgeTrack Protocol also draws on and references prior work in the
-canonical-event and provenance communities, including CloudEvents (CNCF),
-OpenTelemetry (CNCF), SLSA (OpenSSF), in-toto (CNCF), and Sigstore (OpenSSF).
-These references are non-normative unless explicitly cited in the
-specification's normative sections.
+  Key Words for Use in RFCs to Indicate Requirement Levels — RFC 2119
+  (updated by RFC 8174)
+    https://www.rfc-editor.org/info/bcp14
+    Author: S. Bradner
+    Normative language conventions used throughout this specification.
+
+  NIST FIPS 186-5 — Digital Signature Standard
+    U.S. National Institute of Standards and Technology, 2023
+    Standardization of Ed25519 (EdDSA).
+
+  ULID Specification
+    https://github.com/ulid/spec
+    Author: Alizain Feerasta
+    One of the two supported event-identifier formats.
+
+  UUID Version 7 — RFC 9562 §5.7
+    https://www.rfc-editor.org/rfc/rfc9562
+    The other supported event-identifier format.
+
+  W3C Trace Context
+    https://www.w3.org/TR/trace-context/
+    Referenced for `traceid` and correlation context.
+
+-----------------------------------------------------------------------
+
+INFORMATIVE REFERENCES
+-----------------------------------------------------------------------
+
+The following projects informed the design of GAAIM but are not
+required by the specification:
+
+  Sigstore — https://www.sigstore.dev/
+  in-toto  — https://in-toto.io/
+  SLSA     — https://slsa.dev/
+  C2PA     — https://c2pa.org/
+  HL7 FHIR — https://hl7.org/fhir/ (Core + Profiles architecture precedent)
+  OpenID Connect — https://openid.net/specs/openid-connect-core-1_0.html
+                   (Core + Profiles architecture precedent)
+
+See §12.3 of the specification for a detailed comparison against
+in-toto, SLSA, and C2PA.
+
+-----------------------------------------------------------------------
+
+TRADEMARKS
+-----------------------------------------------------------------------
+
+"GAAIM" and the GAAIM wordmark are unregistered trademarks of Edson
+Technologies, Inc. If governance is contributed to a neutral standards
+body in the future, trademark assignment would accompany that
+contribution.
+
+"ForgeTrack" is a trademark of Edson Technologies, Inc.
+
+All other trademarks are the property of their respective owners.
+
+-----------------------------------------------------------------------
+
+CONTACT
+-----------------------------------------------------------------------
+
+Specification:   https://github.com/GAAIM-standard/spec
+Website:         https://gaaim.org
+Publisher:       Edson Technologies, Inc. (https://edson.tech)
+Implementation:  ForgeTrack (https://forgetrack.com)
