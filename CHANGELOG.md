@@ -67,7 +67,7 @@ Initial publication of GAAIM — Core v0.1-draft and Engineering Profile v0.1-dr
 
 ### Publisher
 
-Edson Technologies, Inc. — first implementer via [ForgeTrack](https://forgetrack.com). See [GOVERNANCE.md](./GOVERNANCE.md) for the published-reference posture.
+Edson Technologies, Inc. — first implementer via [ForgeTrack](https://forgetrack.io). See [GOVERNANCE.md](./GOVERNANCE.md) for the published-reference posture.
 
 ---
 

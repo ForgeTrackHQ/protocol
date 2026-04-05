@@ -10,7 +10,7 @@ GAAIM is published as a **reference specification**. **No formal working group i
 
 **Edson Technologies is the publisher** of this specification. The company authored the text, publishes it openly under the licenses declared in the front matter, and maintains the canonical repository at `https://github.com/GAAIM-standard/spec`.
 
-**ForgeTrack is the first implementation.** The event model is in production use inside [ForgeTrack](https://forgetrack.com), a product that tracks AI-amplified engineering work for R&D credit substantiation, audit trails, and contribution reporting.
+**ForgeTrack is the first implementation.** The event model is in production use inside [ForgeTrack](https://forgetrack.io), a product that tracks AI-amplified engineering work for R&D credit substantiation, audit trails, and contribution reporting.
 
 **What this means practically:**
 

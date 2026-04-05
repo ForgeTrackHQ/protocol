@@ -11,7 +11,7 @@ This security policy covers:
 This policy does **not** cover:
 
 - Third-party implementations of the specification (report those to their maintainers)
-- The ForgeTrack SaaS product (see the product's separate disclosure policy at [forgetrack.com/security](https://forgetrack.com/security))
+- The ForgeTrack SaaS product (see the product's separate disclosure policy at [forgetrack.io/security](https://forgetrack.io/security))
 - Vulnerabilities in dependencies (please report those upstream; let us know if an upstream vulnerability affects the specification or reference code)
 
 ---

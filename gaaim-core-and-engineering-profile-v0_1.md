@@ -19,7 +19,7 @@ GAAIM (Generally Accepted AI Metrics, pronounced *"game"*) is an open, vendor-ne
 
 This document specifies **GAAIM Core v0.1-draft** (the vertical-neutral foundation) and **GAAIM Engineering Profile v0.1-draft** (the first vertical profile, defining engineering-specific event types, attribution roles, and expertise vocabulary). The two are published together; subsequent profiles (Legal, Healthcare, Financial, Consulting, and others) will follow on independent release tracks under the profile lifecycle defined in §7.3.
 
-This is a **published reference specification**. It defines the event model underlying [ForgeTrack](https://forgetrack.com) and is published openly for implementer reference, auditor review, and ecosystem optionality. Edson Technologies does not currently operate a formal standards working group; if independent implementer interest emerges, the specification is intended to be contributed to a neutral standards body at that time. See §7.6 for the current governance posture.
+This is a **published reference specification**. It defines the event model underlying [ForgeTrack](https://forgetrack.io) and is published openly for implementer reference, auditor review, and ecosystem optionality. Edson Technologies does not currently operate a formal standards working group; if independent implementer interest emerges, the specification is intended to be contributed to a neutral standards body at that time. See §7.6 for the current governance posture.
 
 ---
 
@@ -1091,7 +1091,7 @@ This specification is published as a reference document. **No formal working gro
 **Current posture:**
 
 - Edson Technologies is the **publisher** of this specification. The company authored the text, publishes it openly under the licenses declared in the front matter, and maintains the canonical repository at `https://github.com/GAAIM-standard/spec`.
-- Edson Technologies is the first implementer of GAAIM via [ForgeTrack](https://forgetrack.com). The event model is in production use inside that product.
+- Edson Technologies is the first implementer of GAAIM via [ForgeTrack](https://forgetrack.io). The event model is in production use inside that product.
 - Issues and pull requests on GitHub are welcome, but response times are not guaranteed and there is no RFC process in flight.
 - There is no ratified profile registry, no algorithm-registry governance process, no ratified conformance certification program, and no active profile subcommittee.
 

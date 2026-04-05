@@ -10,7 +10,7 @@
 
 This is the initial public release of **GAAIM** (Generally Accepted AI Metrics, pronounced *"game"*) — a canonical, signed, vendor-neutral event format for representing knowledge work produced by humans, AI systems, and the workflows that combine them.
 
-GAAIM is published as a **reference specification**. It defines the event model underlying [ForgeTrack](https://forgetrack.com), Edson Technologies' product for tracking AI-amplified engineering work. Publishing the specification openly lets ForgeTrack's provenance claims be independently verified, and gives implementers a reference if they want to emit compatible events from their own tools.
+GAAIM is published as a **reference specification**. It defines the event model underlying [ForgeTrack](https://forgetrack.io), Edson Technologies' product for tracking AI-amplified engineering work. Publishing the specification openly lets ForgeTrack's provenance claims be independently verified, and gives implementers a reference if they want to emit compatible events from their own tools.
 
 See [GOVERNANCE.md](./GOVERNANCE.md) for the current governance posture. No formal working group is currently operating; the specification is intended to be contributed to a neutral standards body if independent implementer interest emerges.
 
@@ -90,7 +90,7 @@ Response times are best-effort under the current published-reference posture.
 
 ## Publisher
 
-GAAIM v0.1-draft is published by [Edson Technologies, Inc.](https://edson.tech), developer of [ForgeTrack](https://forgetrack.com) (the first production implementation). See [GOVERNANCE.md](./GOVERNANCE.md) for the full posture.
+GAAIM v0.1-draft is published by [Edson Technologies, Inc.](https://edson.tech), developer of [ForgeTrack](https://forgetrack.io) (the first production implementation). See [GOVERNANCE.md](./GOVERNANCE.md) for the full posture.
 
 ---
 

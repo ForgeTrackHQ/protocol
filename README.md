@@ -6,7 +6,7 @@
 - **Specification:** [Read v0.1-draft](./gaaim-core-and-engineering-profile-v0_1.md)
 - **License:** [CC-BY-SA 4.0](./LICENSE-SPEC) (specification text) · [Apache 2.0](./LICENSE-CODE) (schemas, fixtures, example code)
 - **Status:** Published Reference Specification — not actively stewarded
-- **First implementation:** [ForgeTrack](https://forgetrack.com)
+- **First implementation:** [ForgeTrack](https://forgetrack.io)
 
 ---
 
@@ -123,7 +123,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for:
 
 ## Governance
 
-GAAIM is published as a **reference specification**. Edson Technologies, Inc. is the publisher and first implementer (via [ForgeTrack](https://forgetrack.com)). No formal working group is currently operating, and there is no RFC process in flight.
+GAAIM is published as a **reference specification**. Edson Technologies, Inc. is the publisher and first implementer (via [ForgeTrack](https://forgetrack.io)). No formal working group is currently operating, and there is no RFC process in flight.
 
 If independent implementer interest emerges — multiple parties shipping GAAIM-conformant producers or sinks, interop requests, or demand from regulators and auditors — the specification is intended to be contributed to a neutral standards body at that time. Edson Technologies does not intend to operate a long-term independent standards process.
 
@@ -143,4 +143,4 @@ The specification text is irrevocably licensed under CC-BY-SA 4.0 and code under
 
 ---
 
-*GAAIM is published by [Edson Technologies, Inc.](https://edson.tech) as the event architecture underlying [ForgeTrack](https://forgetrack.com). If it's useful, use it. If it isn't, fork it. The event model should outlive whoever first wrote it down.*
+*GAAIM is published by [Edson Technologies, Inc.](https://edson.tech) as the event architecture underlying [ForgeTrack](https://forgetrack.io). If it's useful, use it. If it isn't, fork it. The event model should outlive whoever first wrote it down.*
