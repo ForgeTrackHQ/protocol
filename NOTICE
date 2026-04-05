@@ -1,0 +1,39 @@
+ForgeTrack Protocol
+Copyright 2026 Edson Technologies Inc.
+
+This product includes specification text licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0).
+See LICENSE-SPEC for the specification license.
+
+This product includes code, schemas, and examples licensed under the
+Apache License, Version 2.0.
+See LICENSE-CODE for the code license.
+
+---
+
+The ForgeTrack Protocol is stewarded by Edson Technologies Inc.,
+with the stated intent to transition to neutral foundation governance
+as adoption warrants. See GOVERNANCE.md for details.
+
+Contributions to this specification are welcome. See CONTRIBUTING.md
+for the process. By contributing, you agree to license your contributions
+under the applicable repository license (CC-BY-SA 4.0 for specification
+text, Apache 2.0 for code and schemas).
+
+---
+
+Portions of this repository's governance, RFC process, and contribution
+guidelines are inspired by prior work in the open specifications community,
+including (but not limited to):
+
+  - The Rust RFC process (https://github.com/rust-lang/rfcs)
+  - The Python PEP process (https://peps.python.org/)
+  - The Kubernetes KEP process (https://github.com/kubernetes/enhancements)
+  - The Contributor Covenant Code of Conduct (https://www.contributor-covenant.org/)
+  - Keep a Changelog (https://keepachangelog.com/)
+
+The ForgeTrack Protocol also draws on and references prior work in the
+canonical-event and provenance communities, including CloudEvents (CNCF),
+OpenTelemetry (CNCF), SLSA (OpenSSF), in-toto (CNCF), and Sigstore (OpenSSF).
+These references are non-normative unless explicitly cited in the
+specification's normative sections.
