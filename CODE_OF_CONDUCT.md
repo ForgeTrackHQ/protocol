@@ -1,13 +1,8 @@
-<!--
-  File: CODE_OF_CONDUCT.md
-  Version: 0.1.001 | Path: ForgeTrackHQ/protocol/CODE_OF_CONDUCT.md
--->
-
 # Code of Conduct
 
 ## Our Pledge
 
-We as members, contributors, and maintainers pledge to make participation in the ForgeTrack Protocol community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and maintainers pledge to make participation in the GAAIM community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -28,7 +23,7 @@ Examples of unacceptable behavior include:
 - Public or private harassment
 - Publishing others' private information, such as a physical or email address, without their explicit permission
 - Dismissing or attacking contributors based on their level of experience, credentials, or tooling preferences
-- Using the RFC or issue process to advance a commercial agenda disguised as technical advocacy
+- Using the issue or discussion process to advance a commercial agenda disguised as technical advocacy
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Technical Disagreement
@@ -37,8 +32,8 @@ Technical disagreement is welcome and expected. A specification improves when it
 
 - Disagreeing with a proposed design, including strongly
 - Pointing out flaws, ambiguities, or errors in another contributor's proposal
-- Declining an RFC or closing an issue with documented reasoning
-- Holding a contributor to the RFC process standards (scope, alternatives considered, migration guidance)
+- Declining a proposal or closing an issue with documented reasoning
+- Holding a contributor to specification standards (scope, alternatives considered, migration guidance)
 
 The distinction is between attacking an *idea* (welcome) and attacking a *person* (not welcome). "This proposal has a race condition in section 3" is fine. "You clearly don't understand concurrency" is not.
 
@@ -56,7 +51,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers responsible for enforcement at:
 
-**conduct@forgetrack.org**
+**conduct@gaaim.org**
 
 All complaints will be reviewed and investigated promptly and fairly. All maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
