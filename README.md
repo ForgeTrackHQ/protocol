@@ -63,14 +63,14 @@ spec/
 
 Related repositories under [github.com/GAAIM-standard](https://github.com/GAAIM-standard) are envisioned to host:
 
-| Repository          | Purpose                                                      | Status    |
-| ------------------- | ------------------------------------------------------------ | --------- |
-| `spec`              | This repo — specification text                               | Published |
-| `canonicalize`      | Reference canonicalization libraries (TypeScript, C#, Python, Go, Rust) | Planned   |
-| `verifier`          | Reference signature verifiers                                | Planned   |
-| `conformance-tests` | Conformance test fixtures and vectors                        | Planned   |
-| `schemas`           | JSON Schemas for envelope and profile events                 | Planned   |
-| `profiles`          | Additional vertical profile specifications                   | Planned   |
+| Repository          | Purpose                                                                            | Status    |
+| ------------------- | ---------------------------------------------------------------------------------- | --------- |
+| `spec`              | This repo — specification text                                                     | Published |
+| `canonicalize`      | Reference canonicalization libraries (TypeScript ✓, C# ✓, Python/Go/Rust planned) | Published |
+| `verifier`          | Reference signature verifiers                                                      | Planned   |
+| `conformance-tests` | Conformance test fixtures and vectors                                              | Planned   |
+| `schemas`           | JSON Schemas for envelope and profile events                                       | Planned   |
+| `profiles`          | Additional vertical profile specifications                                         | Planned   |
 
 Until the planned repositories are populated, implementers should treat the specification text as the authoritative source and derive schemas and test vectors directly from it.
 
